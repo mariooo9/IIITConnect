@@ -1,0 +1,17 @@
+i=imread('peppers.png');
+subplot(2,2,1);
+imshow(i);
+title('Original');
+my_rgb = i;
+ R = my_rgb(:,:,1);
+ G = my_rgb(:,:,2);
+ B = my_rgb(:,:,3);
+ subplot(2,2,2);
+imshow(R);
+title('Red');
+subplot(2,2,3);
+imshow(G);
+title('Green');
+subplot(2,2,4);
+imshow(B);
+title('Blue');

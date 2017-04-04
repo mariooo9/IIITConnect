@@ -1,0 +1,2 @@
+load('saver');
+disp(array(:));
